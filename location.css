@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+body{
+    min-height: 100vh;
+}
+
+.back_box{
+    display: flex;
+    flex-direction: row;
+}
+
+.back_box:hover > .back_home{
+    background: #D5966C;
+}
+
+.back_box:hover > .back_icon{
+    background: #151515;
+}
+
+.back_icon{
+    background: #D5966C;
+    width: 56px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.icon_arrow_back{
+    width: 8px;
+}
+
+.back_home{
+    background: #151515;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+    width: 208px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: ease 0.3s;
+    
+}
+
+.map_location_back{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.map_photo{
+    
+    display: block;
+    width: 100%;
+}
+
+.map_photo_tablet{
+    display: none;
+}
+
+.map_photo_desktop{
+    display: none;
+}
+
+
+
+.black_box1{
+    width: 100%;
+    height: 493px;
+    background: #151515;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    box-sizing: border-box;
+    padding-right: 16px;
+}
+
+.black_text1{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 343px;
+    height: 45px;
+    margin-top: 48px;
+}
+
+.black_inside_box{
+    display: flex;
+    flex-direction: column;
+}
+
+.black_text2{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #D5966C;
+    margin-top: 48px;
+    width: 343px;
+    height: 32px;
+}
+
+.black_text3{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 343px;
+    height: 84px;
+    margin-top: 20px;
+}
+
+.black_text4{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    width: 343px;
+    height: 140px;
+}
+
+.footer_box{
+    height: 336px;
+    background: #D5966C;
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_box2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_logo{
+    margin-top: 48px;
+    width: 110px;
+}
+
+.footer_text{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #151515;
+    margin-top: 38px;
+    width: 311px;
+    height: 104px;
+}
+
+.loc_social_icons{
+    margin-top: 38px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.fb {
+    cursor: pointer;
+    transition: ease 0.2s;
+}
+
+.fb path:hover{
+    fill: white
+}
+
+.insta{
+    cursor: pointer;
+    transition: ease 0.2s;
+}
+
+.insta path:hover{
+    fill: white
+}
+
+.twitter{
+    cursor: pointer;
+    transition: ease 0.2s;
+}
+
+.twitter path:hover{
+    fill: white
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    .back_box{
+        display: flex;
+        flex-direction: row;
+        padding-left: 40px;
+    
+    }
+
+    .map_photo{
+    
+        display: none;
+    }
+    
+    .map_photo_tablet{
+        display: block;
+        width: 100%;
+    }
+
+    .map_photo_desktop{
+        display: none;
+    }
+
+    .black_box1{
+        height: 436px;
+        padding-left: 40px;
+        padding-right: 40px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .black_text1{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 223px;
+        height: 100%;
+        margin-top: 88px;
+    }
+
+    .black_text2{
+        width: 350px;
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 32px;
+        text-transform: uppercase;
+        color: #D5966C;
+        margin-top: 88px;
+    }
+
+    .black_text3{
+        width: 398px;
+    }
+
+    .black_text4{
+        width: 398px;
+    }
+
+    .footer_box{
+        width: 100%;
+        height: 216px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
+        box-sizing: border-box;
+    }
+
+    .footer_box2{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 65px;
+    }
+
+    .footer_logo{
+        margin-top: 56px;
+    }
+
+    .footer_text{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: #151515;
+        width: 281px;
+        margin-top: 56px;
+    }
+
+    .loc_social_icons{
+        margin-top: 56px;
+    }
+
+
+
+    
+    
+}
+
+@media screen and (min-width: 1440px) {
+
+    .back_box{
+        display: flex;
+        flex-direction: row;
+        padding-left: 156px;
+    }
+
+    .map_photo_desktop{
+        display: block;
+        width: 100%;
+    }
+
+    .map_photo{
+        display: none;
+    }
+
+    .map_photo_tablet{
+        display: none;
+    }
+
+    .black_box1{
+        height: 548px;
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+    
+    .black_text1{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 70px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 345px;
+        height: 120px;
+        margin-top: 104px;
+    }
+
+    .black_text2{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #D5966C;
+        width: 350px;
+        height: 36px;
+        margin-top: 104px;
+    }
+
+    .black_text3{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+        color: #FFFFFF;
+        margin-top: 24px;
+        width: 445px;
+        height: 96px;
+    }
+
+    .black_text4{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+        color: #FFFFFF;
+        width: 540px;
+        height: 128px;
+        margin-top: 32px;
+    }
+
+    .footer_box{
+        padding-left: 165px;
+        padding-right: 165px;
+        height: 244px;
+    }
+
+    .footer_box2{
+        gap: 140px;
+    }
+
+    .footer_logo{
+        width: 165px;
+        margin-top: 80px;
+    }
+
+    .footer_text{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #151515;
+        width: 430px;
+        height: 84px;
+        margin-top: 80px;
+    }
+
+    .loc_social_icons{
+        margin-top: 80px;
+    }
+
+}

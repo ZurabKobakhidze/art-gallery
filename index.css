@@ -1,0 +1,836 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+body{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+
+.header{
+    width: 100%;
+}
+
+.header_image{
+    width: 100%;
+    display: block;
+}
+
+.header_image_tablet{
+    display: none;
+}
+
+.header_image_desktop{
+    display: none;
+}
+
+.inside_box{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.black_photo{
+    display: none;
+}
+
+.logo_1440{
+    display: none;
+}
+
+.logo_black{
+    display: none;
+
+}
+
+.logo_white{
+    display: none;
+}
+
+.mini_box1{
+    width: 100%;
+
+} 
+
+.mini_box2{
+    width: 100%;
+}
+
+.header_text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    width: 100%;
+    padding-left: 16px;
+    box-sizing: border-box;
+    
+}
+
+.header_text1{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #151515;
+    width: 343px;
+    height: 110px;
+}
+
+.header_text2{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    width: 343px;
+    height: 112px;
+    margin-top: 32px;
+}
+
+.location_text{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+    background: #151515;
+    width: 204px;
+    height: 72px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    text-decoration: none;
+    transition: ease 0.3s;
+    
+}
+
+.location_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.location_box:hover > .location_text{
+    background-color: #D5966C;
+}
+
+
+.location_box:hover > .icon_box{
+    background: #151515; 
+} 
+
+.icon_box{
+    background: #D5966C;
+    width: 56px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+
+.right_arrow{
+    width: 8px;
+}
+
+.photo2{
+    margin-top: 120px;
+    width: 100%;
+    display: block;
+}
+
+.photo2_tablet{
+    display: none;
+}
+
+.photo2_desktop{
+    display: none;
+}
+
+.secondtext_box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.scnd_text1{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #151515;
+    margin-top: 25px;
+    width: 343px;
+    height: 90px;
+}
+
+.scnd_text2{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    margin-top: 21px;
+    width: 343px;
+    height: 112px;
+}
+
+.photo3{
+    width: 100%;
+    margin-top: 32px;
+    display: block;
+}
+
+.photo3_tablet{
+    display: none;
+}
+
+.photo3_desktop{
+    display: none;
+}
+
+
+
+.photo4{
+    margin-top: 16px;
+    width: 100%;
+    display: block;
+}
+
+.photo4_tablet{
+    display: none;
+}
+
+.photo4_desktop{
+    display: none;
+}
+
+.inspired_box{
+    background: #151515;
+    width: 100%;
+    height: 293px;
+    margin-top: 16px;
+    flex-direction: column;
+    display: flex;
+}
+
+
+.insp_text1{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 48px;
+    margin-left: 24px;
+    width: 295px;
+    height: 90px;
+}
+
+
+.insp_text2{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 295px;
+    height: 84px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.footer_box{
+    width: 100%;
+    height: 336px;
+    background: #151515;
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    box-sizing: border-box;
+    margin-top: 120px;
+}
+
+.footer_box2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer_logo{
+    width: 110px;
+    margin-top: 48px;
+}
+
+.footer_text{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 331px;
+    margin-top: 38px;
+}
+
+.social_icons{
+    margin-top: 38px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.fb {
+    cursor: pointer;
+    transition: ease 0.2s;
+}
+
+.fb path:hover{
+    fill: #D5966C;
+}
+
+.insta{
+    cursor: pointer;
+    transition: ease 0.2s;
+}
+
+.insta path:hover{
+    fill: #D5966C;
+}
+
+.twitter{
+    cursor: pointer;
+    transition: ease 0.2s;
+}
+
+.twitter path:hover{
+    fill: #D5966C;
+}
+
+@media screen and (min-width: 768px) {
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .header_image{
+        display: none;
+    }
+
+    
+    .black_photo{
+        display: none;
+    }
+
+    .logo_1440{
+        display: none;
+    }
+
+    .logo_black{
+        display: none;
+
+    }
+
+    .logo_white{
+        display: none;
+    }
+
+    .header_image_desktop{
+        display: none;
+    }
+
+    
+    
+    .header_image_tablet{
+        display: block;
+        
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .header_text{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        width: auto;
+        padding-left: 0px;
+        padding-right: 40px;
+        box-sizing: border-box;
+        left: -48px;
+        position: relative;
+        top: 145px;
+
+    }
+
+    .header_text1{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 65px;
+        text-transform: uppercase;
+        color: #151515;
+        width: 339px;
+        height: 130px;
+    }
+
+    .header_text2{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #444444;
+        width: 339px;
+        height: 130px;
+        margin-top: 48px;
+    }
+    
+    .inside_box{
+        display: grid;
+        gap: 11px;
+        margin-top: 80px;
+        padding: 40px;
+        box-sizing: border-box;
+        
+    }
+
+    .photo2{
+        display: none;
+    }
+
+    .photo2_desktop{
+        display: none;
+    }
+    
+
+    .mini_box1{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mini_box2{
+        display: flex;
+        flex-direction: row;
+        gap: 11px;
+        width: 100%;
+    }
+
+    .mini_box3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 11px;
+    }
+
+    
+    .photo2_tablet{
+        display: block;
+        width: 100%;
+        
+    }
+
+    .secondtext_box{
+        padding-right: 68px;
+    }
+
+    .scnd_text1{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #151515;
+        margin-top: 0;
+        width: 223px;
+        height: 135px;
+    }
+
+    .scnd_text2{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #444444;
+        margin-top: 24px;
+        width: 223px;
+        height: 140px;
+    }
+
+    .photo3{
+        
+        display: none;
+    }
+    
+    .photo3_tablet{
+        display: block;
+        width: 100%;
+        
+
+    }
+
+    .photo3_desktop{
+        display: none;
+    }
+    
+    .photo4{
+        
+        display: none;
+    }
+
+    .photo4_desktop{
+        display: none;
+    }
+
+    .photo4_tablet{
+        display: block;
+        width: 100%;
+        
+    }
+
+    .inspired_box{
+        
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+    }
+
+    .insp_text1{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 48px;
+        margin-left: 24px;
+        width: 223px;
+        height: 90px;
+    }
+
+    .insp_text2{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        width: 223px;
+        height: 112px;
+        margin-top: 24px;
+        margin-left: 24px;
+        margin-bottom: 85px;
+    
+    }
+
+    .footer_box{
+        width: 100%;
+        height: 216px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 80px;
+        padding-left: 40px;
+
+    
+    }
+
+    .footer_box2{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 65px;
+    }
+
+    .footer_logo{
+        margin-top: 56px;
+    }
+
+    .footer_text{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+        margin-top: 56px;
+        width: 281px;
+        height: 104px;
+    }
+
+    .social_icons{
+        padding-right: 40px;
+        margin-top: 56px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+
+
+    
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    .header{
+        display: flex;
+        justify-content: flex-start;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+
+    .black_photo{
+        display: block;
+        background: #151515;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .logo_1440{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .logo_black{
+        display: block;
+        width: 514px;
+        left: 165px;
+        top: 189px;
+        position: absolute;
+        z-index: 0;
+        height: 176px;
+
+
+    }
+
+    .logo_white{
+        display: block;
+        width: 514px;
+        position: relative;
+        left: 165px;
+        top: 189px;
+        z-index: 1;
+        height: 176px;
+    }
+
+    .header_text1{
+        display: none;
+    }
+
+    .header_image{
+        display: none;
+    }
+
+    .header_image_tablet{
+        display: none;
+    }
+
+    .header_image_desktop{
+        display: block;
+        width: 100%;
+    }
+
+    .header_text{
+        width: auto;
+        left: -65px;
+        position: relative;
+        padding-right: 100px;
+        top: 190px;
+        margin-top: 0;
+
+    
+    }
+
+    .header_text2{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+        color: #444444;
+        width: 350px;
+        height: 160px;
+        margin-top: 0;
+    }
+
+    .inside_box{
+        padding-right: 160px;
+        padding-left: 160px;
+        margin-top: 0;
+        padding-top: 180px;
+    }
+
+    .photo2_desktop{
+        display: block;
+        width: 100%;
+    }
+
+    .photo2_tablet{
+        display: none;
+    }
+
+    .photo2{
+        display: none;
+    }
+    
+    .photo3_desktop{
+        display: block;
+        width: 100%;
+    }
+
+    .photo3{
+        display: none;
+    }
+
+    .photo3_tablet{
+        display: none;
+    }
+
+    .photo4_desktop{
+        display: block;
+        width: 100%;
+    }
+
+    .photo4{
+        display: none;
+    }
+
+    .photo4_tablet{
+        display: none;
+    }
+
+    .secondtext_box{
+        padding-right: 120px;
+    }
+
+    .scnd_text1{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 60px;
+        text-transform: uppercase;
+        color: #151515;
+        width: 350px;
+        height: 120px;
+    }
+
+    .scnd_text2{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+        color: #444444;
+        width: 350px;
+        height: 120px;
+        margin-top: 32px;
+
+    }
+
+    .insp_text1{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 60px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 350px;
+        height: 120px;
+        margin-top: 65px;
+        margin-left: 48px;
+    
+    }
+
+    .insp_text2{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+        color: #FFFFFF;
+        width: 350px;
+        height: 96px;
+        margin-left: 48px;
+        margin-top: 32px;
+        margin-bottom: 64px;
+    }
+
+    .footer_box{
+        height: 244px;
+        padding-left: 165px;
+    }
+
+    .footer_box2{
+        gap: 140px;
+
+    }
+
+    .footer_logo{
+        width: 160px;
+        margin-top: 80px;
+    }
+
+    .footer_text{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-top: 80px;
+        width: 430px;
+        height: 84px;
+    }
+
+    .social_icons{
+        padding-right: 165px;
+        margin-top: 80px;
+    }
+
+
+    
+}
